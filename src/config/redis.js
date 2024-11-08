@@ -1,6 +1,7 @@
 const redis = require("redis");
 const { redisHost, redisPort } = require("./environment-vars");
 
+// Connect to Redis
 const client = redis.createClient({
   host: redisHost,
   port: redisPort,
