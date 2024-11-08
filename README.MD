@@ -34,7 +34,7 @@
 
 1. *Install Dependencies*
    ```bash
-   npm isntall
+   npm install
    npm start
 
 2. *In Another Tab use:*
